@@ -24,7 +24,7 @@ class Alumno extends Model
         return $this->belongsTo(Carrera::class);
     }
 
-    public function registroPorMateria(){
+    public function MateriaPorAlumno(){
         return $this->hasMany(Materia_por_Alumno::class);
     }
     
